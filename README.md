@@ -1,6 +1,6 @@
 # biomarkerontology
 
-Static site for https://argosdb.org generated with the [Hugo](https://gohugo.io/) framework.
+Static site for https://biomarkerontology.netlify.app generated with the [Hugo](https://gohugo.io/) framework.
 
 ## Updating Site
 - Pull this repository to a local environment
