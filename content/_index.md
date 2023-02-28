@@ -8,6 +8,4 @@ _Page under construction. For more details contact [Raja Mazumder](mailto:mazumd
 
 #### Draft ontology can be found at https://proteininformationresource.org/staff/nataled/DBO
 
-{{< js_wc >}} 
-
 
