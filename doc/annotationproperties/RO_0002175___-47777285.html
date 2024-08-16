@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Ontology Browser</title>
+<meta http-equiv='content-type' content='text/html;charset=UTF-8'>
+<link rel='stylesheet' href='../css/default.css' type='text/css' />
+</head>
+
+<body>
+
+<div id='tabs'>
+<a href='../ontologies/index.html' class='' >Ontologies</a>
+<a href='../classes/index.html' class='' >Classes</a>
+<a href='../objectproperties/index.html' class='' >Object Properties</a>
+Data Properties
+<a href='index.html' class='' >Annotation Properties</a>
+<a href='../individuals/index.html' class='' >Individuals</a>
+<a href='../datatypes/index.html' class='' >Datatypes</a>
+<a href='../cloud/' class='' >Clouds</a>
+</div> <!-- tabs -->
+
+
+<div class='summary'><h2>Annotation Property: 'present in taxon'</h2>
+
+<div id='annotations_(17)'>
+<h4>Annotations (17)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="IAO_0000115___964462205.html" class='Annotation Property' title="http://purl.obolibrary.org/obo/IAO_0000115">definition</a> <span class='literal'>"S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S"</span></li>
+<li class="asserted"><a href="IAO_0000115___964462205.html" class='Annotation Property' title="http://purl.obolibrary.org/obo/IAO_0000115">definition</a> <span class='literal'>"S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S."</span></li>
+<li class="asserted"><a href="IAO_0000117___964462207.html" class='Annotation Property' title="http://purl.obolibrary.org/obo/IAO_0000117">'term&nbsp;editor'</a> https://orcid.org/0000-0002-6601-2165 
+<a href='https://orcid.org/0000-0002-6601-2165' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=https%3A%2F%2Forcid.org%2F0000-0002-6601-2165&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a></li>
+<li class="asserted"><a href="IAO_0000119___964462209.html" class='Annotation Property' title="http://purl.obolibrary.org/obo/IAO_0000119">'definition&nbsp;source'</a> http://www.ncbi.nlm.nih.gov/pubmed/22293552 
+<a href='http://www.ncbi.nlm.nih.gov/pubmed/22293552' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpubmed%2F22293552&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a></li>
+<li class="asserted"><a href="OMO_0002000___709552464.html" class='Annotation Property' title="http://purl.obolibrary.org/obo/OMO_0002000">OMO_0002000</a> <span class='literal'>"PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;<br />PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;<br />PREFIX in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002162&gt;<br />PREFIX present_in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002175&gt;<br />CONSTRUCT {<br />  in_taxon: a owl:ObjectProperty .<br />  ?witness rdfs:label ?label .<br />  ?witness rdfs:subClassOf ?x .<br />  ?witness rdfs:subClassOf [<br />    a owl:Restriction ;<br />    owl:onProperty in_taxon: ;<br />    owl:someValuesFrom ?taxon<br />  ] .<br />}<br />WHERE {<br />  ?x present_in_taxon: ?taxon .<br />  BIND(IRI(CONCAT(<br />    "http://purl.obolibrary.org/obo/RO_0002175#",<br />    MD5(STR(?x)),<br />    "-",<br />    MD5(STR(?taxon))<br />  )) as ?witness)<br />  BIND(CONCAT(STR(?x), " in taxon ", STR(?taxon)) AS ?label)<br />}"</span></li>
+<li class="asserted"><a href="hasDbXref___739807700.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#hasDbXref">database_cross_reference</a> <span class='literal'>"<a href='RO:0002175' target='ext_ref'>RO:0002175</a>"</span></li>
+<li class="asserted"><a href="hasDbXref___739807700.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#hasDbXref">database_cross_reference</a> <span class='literal'>"<a href='https://orcid.org/0000-0002-6601-2165' target='ext_ref'>https://orcid.org/0000-0002-6601-2165</a>"</span></li>
+<li class="asserted"><a href="hasExactSynonym___1674011543.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">'has&nbsp;exact&nbsp;synonym'</a> <span class='literal'>"applicable for taxon"</span></li>
+<li class="asserted"><a href="hasOBONamespace___2038730586.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">has_obo_namespace</a> <span class='literal'>"uberon"</span></li>
+<li class="asserted"><a href="id___1458873596.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#id">id</a> <span class='literal'>"present_in_taxon"</span></li>
+<li class="asserted"><a href="is_class_level___-505331127.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#is_class_level">is_class_level</a> <span class='literal'>"true"</span>(<a href="../datatypes/boolean___1756652655.html" class='Datatype' title="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a>)</li>
+<li class="asserted"><a href="is_metadata_tag___2045731680.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag">is_metadata_tag</a> <span class='literal'>"true"</span>(<a href="../datatypes/boolean___1756652655.html" class='Datatype' title="http://www.w3.org/2001/XMLSchema#boolean">xsd:boolean</a>)</li>
+<li class="asserted"><a href="shorthand___-568574260.html" class='Annotation Property' title="http://www.geneontology.org/formats/oboInOwl#shorthand">shorthand</a> <span class='literal'>"present_in_taxon"</span></li>
+<li class="asserted"><a href="comment___1501100887.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#comment">comment</a> <span class='literal'>"The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology."</span></li>
+<li class="asserted"><a href="label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">label</a> <span class='literal'>"present in taxon"</span> <span style='color: black;'>@en</span></li>
+<li class="asserted"><a href="label___653429740.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#label">label</a> <span class='literal'>"present_in_taxon"</span></li>
+<li class="asserted"><a href="seeAlso___-1773693006.html" class='Annotation Property' title="http://www.w3.org/2000/01/rdf-schema#seeAlso">'see&nbsp;also'</a> https://github.com/obophenotype/uberon/wiki/<b>Taxon-constraints</b> 
+<a href='https://github.com/obophenotype/uberon/wiki/Taxon-constraints' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=https%3A%2F%2Fgithub.com%2Fobophenotype%2Fuberon%2Fwiki%2FTaxon-constraints&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a></li>
+</ul>
+</div>
+</div><!-- annotations (17) -->
+
+
+<div id='usage_(13)'>
+<h4>Usage (13)</h4>
+<div class='codebox'>
+<ul>
+<li class="asserted"><a href="../classes/CL_0000084___-267706426.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0000084">'T&nbsp;cell'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/CL_0000897___-267698704.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0000897">'CD4-positive,&nbsp;alpha-beta&nbsp;memory&nbsp;T&nbsp;cell'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/CL_0000905___-267698024.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0000905">'effector&nbsp;memory&nbsp;CD4-positive,&nbsp;alpha-beta&nbsp;T&nbsp;cell'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/CL_0000909___-267698020.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0000909">'CD8-positive,&nbsp;alpha-beta&nbsp;memory&nbsp;T&nbsp;cell'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/CL_0000913___-267697995.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0000913">'effector&nbsp;memory&nbsp;CD8-positive,&nbsp;alpha-beta&nbsp;T&nbsp;cell'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/CL_0001203___-267674962.html" class='Class' title="http://purl.obolibrary.org/obo/CL_0001203">'CD8-positive,&nbsp;alpha-beta&nbsp;memory&nbsp;T&nbsp;cell,&nbsp;CD45RO-positive'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0000178___-862731684.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0000178">blood</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_9606</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_9606' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_9606&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0000463___-862728837.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0000463">'organism&nbsp;substance'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_33090</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_33090' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_33090&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0000463___-862728837.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0000463">'organism&nbsp;substance'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_33208</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_33208' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_33208&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0000463___-862728837.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0000463">'organism&nbsp;substance'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_4751</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_4751' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_4751&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0001062___-862702891.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0001062">'anatomical&nbsp;entity'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_33090</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_33090' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_33090&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0001062___-862702891.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0001062">'anatomical&nbsp;entity'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_33208</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_33208' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_33208&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+<li class="asserted"><a href="../classes/UBERON_0001062___-862702891.html" class='Class' title="http://purl.obolibrary.org/obo/UBERON_0001062">'anatomical&nbsp;entity'</a>&nbsp;<span class='Annotation Property active-entity'>'present&nbsp;in&nbsp;taxon'</span> http://purl.obolibrary.org/obo/<b>NCBITaxon_4751</b> 
+<a href='http://purl.obolibrary.org/obo/NCBITaxon_4751' class='urlOption' target='_blank' ><img src="../images/external.png" title="Attempt to open link in another window" /></a> 
+<a href='../ontologies/index.html?action=load&uri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCBITaxon_4751&redirect=..%2Fannotationproperties%2FRO_0002175___-47777285.html' class='urlOption' ><img src="../images/download.png" title="Attempt to load owl/rdf" /></a>&nbsp;</li>
+</ul>
+</div>
+</div><!-- usage (13) -->
+
+</div> <!-- summary -->
+<p class='footer'>
+<a href='http://code.google.com/p/ontology-browser/' target='_blank'>OWL HTML inside</a>
+</p>
+</body>
+</html>
