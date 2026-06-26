@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_core_full.owl#"
-     xml:base="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_core_full.owl"
+<rdf:RDF xmlns="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/subsets/obci_core_full.owl#"
+     xml:base="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/subsets/obci_core_full.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,7 +10,7 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_core_full.owl">
+    <owl:Ontology rdf:about="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/subset/obci_core_full.owl">
         <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ontology for Biomarkers of Clinical Interest (OBCI) formally defines biomarkers for diseases, phenotypes, and effects.</terms:description>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontology for Biomarkers of Clinical Interest</terms:title>
