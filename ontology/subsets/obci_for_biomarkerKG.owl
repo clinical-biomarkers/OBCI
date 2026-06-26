@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_for_biomarkerKG.owl#"
+     xml:base="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_for_biomarkerKG.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://github.com/clinical-biomarkers/OBCI/blob/main/ontology/obci_for_biomarkerKG.owl">
+        <terms:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ontology for Biomarkers of Clinical Interest (OBCI) formally defines biomarkers for diseases, phenotypes, and effects.</terms:description>
+        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontology for Biomarkers of Clinical Interest</terms:title>
+        <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:default-namespace>
+        <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/nataled</oboInOwl:saved-by>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ontology for Biomarkers of Clinical Interest is licensed under CC BY 4.0. Please see http://obofoundry.org/ontology/obci for details.</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use the Hermit reasoner in Protege to see the correct hierarchy.</rdfs:comment>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-26</owl:versionInfo>
+    </owl:Ontology>
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <!-- http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000009 -->
+
+    <owl:ObjectProperty rdf:about="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000009">
+        <rdfs:subPropertyOf rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby the level of &apos;e&apos; is--to some statistically significant degree--above the range typically considered normal (for an individual or population of interest).</obo:IAO_0000115>
+        <obo:IAO_0000116>&apos;Level&apos; here can refer to raw counts, percentages, ratios, concentrations, activities, etc., that can be measured along a continuum scale.</obo:IAO_0000116>
+        <obo:IAO_0000116>&apos;Range&apos; here can be as small as a single point; that is, a threshold. In such case, being above the range would mean being greater than that threshold value.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBCI:100000009</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated_by_above_normal_level_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated_by_above_normal_level_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated by above normal level of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby the level of &apos;e&apos; is--to some statistically significant degree--above the range typically considered normal (for an individual or population of interest).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000011 -->
+
+    <owl:ObjectProperty rdf:about="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000011">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its purpose as defined by the BEST classification system.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBCI:100000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_BEST_classification</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_BEST_classification</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has BEST classification</rdfs:label>
+        <rdfs:seeAlso></rdfs:seeAlso>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its purpose as defined by the BEST classification system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000015 -->
+
+    <owl:ObjectProperty rdf:about="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000015">
+        <rdfs:subPropertyOf rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby the level of &apos;e&apos; is--to some statistically significant degree--below the range typically considered normal (for an individual or population of interest).</obo:IAO_0000115>
+        <obo:IAO_0000116>&apos;Level&apos; here can refer to raw counts, percentages, ratios, concentrations, activities, etc., that can be measured along a continuum scale.</obo:IAO_0000116>
+        <obo:IAO_0000116>&apos;Range&apos; here can be as small as a single point; that is, a threshold. In such case, being below the range would mean being less than that threshold value.</obo:IAO_0000116>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBCI:100000015</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated_by_below_normal_level_of</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated_by_below_normal_level_of</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicated by below normal level of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000015"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby the level of &apos;e&apos; is--to some statistically significant degree--below the range typically considered normal (for an individual or population of interest).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000016 -->
+
+    <owl:ObjectProperty rdf:about="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000016">
+        <rdfs:subPropertyOf rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000019"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby &apos;e&apos; is found to be present in cases where it is typically absent (in an individual or population of interest).</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBCI:100000016</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>indicated_by_presence_of</oboInOwl:id>
+        <oboInOwl:shorthand>indicated_by_presence_of</oboInOwl:shorthand>
+        <rdfs:label>indicated by presence of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and its assessed entity &apos;e&apos;, whereby &apos;e&apos; is found to be present in cases where it is typically absent (in an individual or population of interest).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000018 -->
+
+    <owl:ObjectProperty rdf:about="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000018">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and an anatomical source &apos;a&apos;, whereby a sample of &apos;a&apos; is used to determine some quality of an assessed entity &apos;e&apos;.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:created_by>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBCI:100000018</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determined_using_sample_from</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determined_using_sample_from</oboInOwl:shorthand>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">determined using sample from</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://proteininformationresource.org/cgi-bin/show_obci?id=OBCI:100000018"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A relationship between a biomarker &apos;b&apos; and an anatomical source &apos;a&apos;, whereby a sample of &apos;a&apos; is used to determine some quality of an assessed entity &apos;e&apos;.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5809-9523</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0020327 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020327">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0020326"/>
+        <obo:IAO_0000112>A below-normal level of creatine in cerebrospinal fluid is diagnostic_for guanidinoacetate methyltransferase deficiency, which is to say that such levels indicate that the patient has the indicated clinical issue.</obo:IAO_0000112>
+        <obo:IAO_0000112>An above-normal level of succinylacetone in urine is diagnostic_for type 1 tyrosinemia, while an above-normal level of 4-hydroxyphenylpyruvate is diagnostic_for either type 2 or type 3 tyrosinemia.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship between a biomarker &apos;b&apos; and a disease or condition of clinical interest &apos;d&apos;, where the presence or occurrence of &apos;b&apos; is used to infer the presence or occurrence of &apos;d&apos; or determine its subtype.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5809-9523</obo:IAO_0000117>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
+        <rdfs:comment>Basis: This relation is based on the &apos;BEST&apos; classification of and definition for &apos;biomarker&apos;, as given by the FDA-NIH Biomarker Working Group: A defined characteristic that is measured as an indicator of normal biological processes, pathogenic processes, or biological responses to an exposure or intervention, including therapeutic interventions. The BEST classification includes diagnostic, prognostic, susceptibility/risk, monitoring, predictive, safety, and pharmacodynamic/response biomarkers. See PMID:29405771 for details. Note that any given biomarker can be of a different type in different contexts.</rdfs:comment>
+        <rdfs:label>diagnostic for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0020328 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020328">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0020326"/>
+        <obo:IAO_0000112>Hemoglobin A1c (HbA1c) level in blood monitors_status_of diabetes since HbA1c levels reflect a three-month average of blood glucose levels, and can thus be used to monitor the disease progression.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship between a serially-measured biomarker &apos;b&apos; and a disease or condition of clinical interest &apos;d&apos;, where &apos;b&apos; is used to infer the status of &apos;d&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5809-9523</obo:IAO_0000117>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
+        <rdfs:comment>Usage note: The status of &apos;d&apos; refers to disease progression/remission or treatment response.
+
+Basis: This relation is based on the &apos;BEST&apos; classification of and definition for &apos;biomarker&apos;, as given by the FDA-NIH Biomarker Working Group: A defined characteristic that is measured as an indicator of normal biological processes, pathogenic processes, or biological responses to an exposure or intervention, including therapeutic interventions. The BEST classification includes diagnostic, prognostic, susceptibility/risk, monitoring, predictive, safety, and pharmacodynamic/response biomarkers. See PMID:29405771 for details. Note that any given biomarker can be of a different type in different contexts.</rdfs:comment>
+        <rdfs:label>monitors status of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0020331 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020331">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0020326"/>
+        <obo:IAO_0000112>A high number of tumor cells expressing the nuclear protein Ki-67 is prognostic_for an aggressive cancer.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship between a biomarker &apos;b&apos; and a disease or condition of clinical interest &apos;d&apos;, where the presence or occurrence of &apos;b&apos; is used to infer the likelihood of a clinical event, disease recurrence or progression in patients who have &apos;d&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5809-9523</obo:IAO_0000117>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
+        <rdfs:comment>Usage note: The relations &apos;indicates risk of developing&apos; (RO:0020333), &apos;prognostic for&apos; (this relation), and &apos;predicts effect of&apos; (RO:0020330) are each used to relate biomarkers to possible future clinical outcomes:
+	- &apos;indicates risk of developing&apos; pertains to cases where the biomarker indicates a potential clinical issue in a patient that does not currently exhibit the issue;
+	- &apos;prognostic for&apos; is used for cases where the biomarker indicates the likelihood of a specified clinical event (including disease recurrence or progression) in a patient that has or had the clinical issue of interest;
+	- &apos;predicts effect of&apos; is used to indicate the likely outcome of an intervention/treatment.
+
+Basis: This relation is based on the &apos;BEST&apos; classification of and definition for &apos;biomarker&apos;, as given by the FDA-NIH Biomarker Working Group: A defined characteristic that is measured as an indicator of normal biological processes, pathogenic processes, or biological responses to an exposure or intervention, including therapeutic interventions. The BEST classification includes diagnostic, prognostic, susceptibility/risk, monitoring, predictive, safety, and pharmacodynamic/response biomarkers. See PMID:29405771 for details. Note that any given biomarker can be of a different type in different contexts.</rdfs:comment>
+        <rdfs:label>prognostic for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0020333 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0020333">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0020326"/>
+        <obo:IAO_0000112>The presence of a certain BRCA1 mutation indicates_risk_of_developing breast cancer in those who don&apos;t currently have the cancer.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship between a biomarker &apos;b&apos; and a disease or condition of clinical interest &apos;d&apos;, where the presence or occurrence of &apos;b&apos; is used to infer the potential for developing &apos;d&apos; in an individual that currently does not have &apos;d&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-5809-9523</obo:IAO_0000117>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0001-5809-9523"/>
+        <rdfs:comment>Usage note: The relations &apos;indicates risk of developing&apos; (this relation), &apos;prognostic for&apos; (RO:0020331), and &apos;predicts effect of&apos; (RO:0020330) are each used to relate biomarkers to possible future clinical outcomes:
+	- &apos;indicates risk of developing&apos; pertains to cases where the biomarker indicates a potential clinical issue in a patient that does not currently exhibit the issue;
+	- &apos;prognostic for&apos; is used for cases where the biomarker indicates the likelihood of a specified clinical event (including disease recurrence or progression) in a patient that has or had the clinical issue of interest;
+	- &apos;predicts effect of&apos; is used to indicate the likely outcome of an intervention/treatment.
+
+Basis: This relation is based on the &apos;BEST&apos; classification of and definition for &apos;biomarker&apos;, as given by the FDA-NIH Biomarker Working Group: A defined characteristic that is measured as an indicator of normal biological processes, pathogenic processes, or biological responses to an exposure or intervention, including therapeutic interventions. The BEST classification includes diagnostic, prognostic, susceptibility/risk, monitoring, predictive, safety, and pharmacodynamic/response biomarkers. See PMID:29405771 for details. Note that any given biomarker can be of a different type in different contexts.</rdfs:comment>
+        <rdfs:label>indicates risk of developing</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
