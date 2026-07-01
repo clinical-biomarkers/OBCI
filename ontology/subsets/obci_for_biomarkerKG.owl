@@ -16,7 +16,7 @@
         <terms:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ontology for Biomarkers of Clinical Interest</terms:title>
         <oboInOwl:default-namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</oboInOwl:default-namespace>
         <oboInOwl:saved-by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/nataled</oboInOwl:saved-by>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Ontology for Biomarkers of Clinical Interest is licensed under CC BY 4.0. Please see http://obofoundry.org/ontology/obci for details.</rdfs:comment>
+        <rdfs:comment>The Ontology for Biomarkers of Clinical Interest is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. You must give appropriate credit (by using the original ontology IRI for the whole ontology or original term IRIs for individual terms), provide a link to the license, and indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use the Hermit reasoner in Protege to see the correct hierarchy.</rdfs:comment>
         <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2026-06-26</owl:versionInfo>
     </owl:Ontology>
